@@ -1,0 +1,40 @@
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  border: none;
+  background: none;
+  padding: 0.6rem 1.2rem;
+  cursor: pointer;
+  margin-right: 0.8rem;
+  min-width: 7rem;
+  border-radius: 0.2rem;
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+
+.btn:last-child {
+  margin-right: 0;
+}
+
+.btn.btn-primary {
+  background-color: #1c6fba;
+  color: #ffffff;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn.btn-primary:hover {
+  background-color: #175b96;
+}
+
+.btn.btn-secondary {
+  background-color: #ffffff;
+  color: #1c6fba;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid #1c6fba;
+}
+
+.btn.btn-secondary:hover {
+  background-color: #ececec;
+}
